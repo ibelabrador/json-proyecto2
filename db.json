@@ -1,35 +1,119 @@
 {
-    
-    "usuario":
-        [
-            {
-                "id": 1,
-                "name":"Carlos",
-                "phone": 3002578964,
-                "password": "A123ref",
-                "img": [],
-                "flag": "conectado",
-                "phrase": "I'm using whatsapp",
-                "date": "29-02-24"
+  "usuario": [
+    {
+      "id": 1,
+      "name": "Carlos",
+      "phone": 3002578964,
+      "password": "A123ref",
+      "img": [],
+      "flag": "online",
+      "phrase": "I'm using whatsapp",
+      "date": "29-02-24"
+    },
+    {
+      "id": 2,
+      "name": "Cristian",
+      "phone": 3002578968,
+      "password": "A123cri",
+      "img": [],
+      "flag": "offline",
+      "phrase": "I'm crazy",
+      "date": "28-02-24"
+    },
+    {
+      "id": 3,
+      "name": "Angel",
+      "phone": 3012578967,
+      "password": "A123gel",
+      "img": [],
+      "flag": "offline",
+      "phrase": "I'm living",
+      "date": "02-02-24"
+    },
+    {
+        "id": 4,
+        "name": "Deimer",
+        "phone": 3002511168,
+        "password": "A123dei",
+        "img": [],
+        "flag": "online",
+        "phrase": "I'm studying",
+        "date": "29-02-24"
+    },
+    {
+        "id": 5,
+        "name": "Isabel",
+        "phone": 3442511168,
+        "password": "A123isa",
+        "img": [],
+        "flag": "online",
+        "phrase": "I'm working",
+        "date": "29-02-24"
+    },
+    {
+        "id": 6,
+        "name": "Carolina",
+        "phone": 3001451168,
+        "password": "A123car",
+        "img": [],
+        "flag": "offline",
+        "phrase": "Life is beautiful",
+        "date": "29-01-24"
+    },
+    {
+        "id": 7,
+        "name": "Ana",
+        "phone": 2532511168,
+        "password": "A123ana",
+        "img": [],
+        "flag": "online",
+        "phrase": "available",
+        "date": "29-02-24"
+    },
+    {
+        "id": 8,
+        "name": "Sofi",
+        "phone": 3002221168,
+        "password": "A123sof",
+        "img": [],
+        "flag": "online",
+        "phrase": "only whatsapp",
+        "date": "29-02-24"
+    },
+    {
+        "id": 9,
+        "name": "Andres",
+        "phone": 3002511123,
+        "password": "A123and",
+        "img": [],
+        "flag": "offline",
+        "phrase": "I can't speak",
+        "date": "15-02-24"
+    },
+    {
+        "id": 10,
+        "name": "Felipe",
+        "phone": 3005551168,
+        "password": "A123fel",
+        "img": [],
+        "flag": "online",
+        "phrase": "<3",
+        "date": "29-02-24"
+    }
+  ],
+  "messages": [
+    {
+      "senderUser": 1,
+      "recipientUser": 2,
+      "chat": [
+        {
+          "sendBy": 1,
+          "date": "29-02-24",
+          "hour": "13:30",
+          "message": "Hola",
+          "flag": "True"
         }
-
-        ],
-
-    "messages":
-        [
-            {
-                "senderUser":1,
-                "recipientUser":2,
-                "chat": [
-                    {
-                        "sendBy":1,
-                        "date":"29-02-24",
-                        "hour":"13:30",
-                        "message":"Hola",
-                        "flag": "True"
-                    }
-                ]
-            }
-        ]
-
+      ]
+    }
+  ]
 }
