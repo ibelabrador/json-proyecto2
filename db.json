@@ -1,0 +1,35 @@
+{
+    
+    "usuario":
+        [
+            {
+                "id": 1,
+                "name":"Carlos",
+                "phone": 3002578964,
+                "password": "A123ref",
+                "img": [],
+                "flag": "conectado",
+                "phrase": "I'm using whatsapp",
+                "date": "29-02-24"
+        }
+
+        ],
+
+    "messages":
+        [
+            {
+                "senderUser":1,
+                "recipientUser":2,
+                "chat": [
+                    {
+                        "sendBy":1,
+                        "date":"29-02-24",
+                        "hour":"13:30",
+                        "message":"Hola",
+                        "flag": "True"
+                    }
+                ]
+            }
+        ]
+
+}
